@@ -1,0 +1,420 @@
+/*
+Light font: #ffffff
+Green font highlight: #42b99f
+Xbox Background: #1f1e24
+
+
+Heading Blue:  #0174c7
+Light Header: #a8a8a8
+Light Font: #1f1d30
+QA Headers: #e77272
+
+Button Green: #30a05c 
+Button Outline: #26804a
+Button Highlight: #59b37d
+*/
+body{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-family:"Montserrat";
+	color:#1f1d30;
+}
+
+a{
+	text-decoration:none;
+	color:#400080;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+
+.button{
+	margin:auto;
+	border:2px solid #26804a;
+	background:linear-gradient(#59b37d 0%,#30a05c 5%);
+	color:#ffffff;
+	font-weight:bold;
+	border-radius:4px;
+	padding:0.5em 2em;
+	font-size:24px;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+
+
+.button:hover{
+	background:linear-gradient(#6fbd8e 0%,#49ac70 5%);
+	text-decoration:none;
+}
+.capitalized{
+	text-transform:Capitalize !important;
+}
+
+.large-width{
+	max-width:1170px;
+	margin:auto;
+	padding: 0em 6em;
+}
+.medium-width{
+	max-width:640px;
+	margin:auto;
+	padding: 0em 6em;
+}
+
+.header-area{
+	background-color:#1f1e24;
+	background-image:url(../images/template/xbox-background.jpg);
+	background-size:cover;
+	background-position: top center;
+	padding:2em 3em;
+	text-align:center;
+	padding-bottom:100px;
+	color:#ffffff;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.40);
+}
+
+.alt-theme{
+	background-color:#300028;
+	background-image:url(../images/template/portal-background.jpg);
+
+	padding-top:0;
+	padding-bottom:0;
+}
+
+
+
+.header-area > div > h1 > b,
+.header-area > div > h2 > b,
+.header-area > div > h3 > b
+{
+	font-weight:700;
+	color:#42b99f;
+}
+
+.header-area > div > h1{
+	text-transform:Capitalize;
+	font-size:40px;
+	font-weight:400;
+	margin-bottom:15px;
+}
+
+.header-area > div > h2{
+	text-transform:Uppercase;
+	font-size:24px;
+	font-weight:500;
+	margin-bottom:10px;
+}
+.header-area > div > h3{
+	text-transform:Capitalize;
+	font-size:18px;
+	font-weight:500;
+	margin-bottom:80px;
+}
+
+ul.top-navigation {
+	list-style:none;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0;
+	margin:0;
+}
+
+ul.top-navigation .button{
+	font-size:12px;
+	border-radius:4px;
+}
+
+ul.top-navigation a{
+	color:#ffffff;
+}
+
+.huge-space{
+	margin-top:170px;
+}
+.medium-space{
+	margin-top:60px;
+}
+.small-space{
+	margin-top:30px;
+}
+.space{
+	margin-top:15px;
+}
+
+.medium-space-bottom{
+	margin-bottom:70px;
+}
+
+ul.top-navigation > li {
+	margin:0 1em;
+	padding:0em;
+	vertical-align:middle;
+	text-align:center;
+}
+
+
+.top-navigation > li:first-child > img{
+
+	height:4em;
+}
+
+
+
+.content-area{
+	text-align:center;
+	padding-top:2em;
+	padding-bottom:160px;
+}
+
+.content-area > div > h3{
+	text-transform:Capitalize;
+	font-size:32px;
+	font-weight:700;
+	margin:32px 0 0 0;
+}
+
+.content-area > div > h2{
+		text-transform:Uppercase;
+		font-weight:400;
+		font-size:46px;
+		color:#0174c7;
+		margin-top:60px;
+}
+
+
+ul.icon-wall{
+	margin:0;
+	margin-bottom:30px;
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex-flow: row wrap;
+	align-items:center;
+	justify-content:space-between;
+}
+
+ul.icon-wall > li {
+	margin:0;
+	padding:0;
+	width:150px;
+	margin:50px 10px;
+}
+ul.icon-wall > li > img {
+	max-width:100%;
+	max-height:128px;
+}
+.feature-area{
+	color:white;
+	text-align:center;
+	font-size:24px;
+	padding-top:2em;
+	padding-bottom:100px;
+}
+.feature-area b{
+	color:#42b99f;
+}
+.feature-area > div > h2{
+	font-size:34px;
+	font-weight:700;
+	margin-top:60px;
+	text-transform:Uppercase;
+}
+.feature-area > div > h3 {
+	font-size:38px;
+	font-weight:500;
+	text-transform:Capitalize;
+	margin-bottom:60px;
+}
+
+ul.features{
+
+	text-align:left;
+	font-weight:700;
+	margin:0 0.5em;
+	margin-bottom:100px;
+	list-style:none;
+}
+
+ul.features > li:before{
+	content:'';
+	display:inline-block;
+	height:24px;
+	width:24px;
+	background-image:url(../images/icons/check.png);
+	background-size:contain;
+	margin-right:1em;
+}
+ul.features > li {
+	margin-bottom:1.25em;
+}
+
+ul.features b{
+	color:#888888;
+	font-weight:700;
+}
+
+.feature-area-a{
+	background-image:url(../images/template/gamepad-background.jpg);
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+
+.team-member{
+	display:flex;
+	margin-top:100px;
+	flex-flow:row wrap;
+}
+.team-member img.team-member-photo{
+	
+	border:2px solid rgba(0,0,0,0.15);
+
+	width:286px;
+	border-radius:50%;
+	margin-top:30px;
+	padding:5px;
+
+}
+.team-member .head-shot{
+		display:block;
+		width:50%;
+		text-align:center;
+}
+
+.team-member .details{
+	width:45%;
+	margin:0 2.5%;
+
+}
+.team-member .details > h2{
+	font-size:30px;
+	font-weight:700;
+	color:#a8a8a8;
+	margin-bottom:5px;
+
+}
+.team-member .details > h3{
+	font-size:23px;
+	font-weight:500;
+	margin-top:0;
+	margin-bottom:30px;
+}
+
+.team-member .details > p {
+	line-height:23px;
+	font-size:16px;
+	font-weight:400;
+	margin-bottom:30px;
+}
+.team-member .details > p b {
+	font-weight:700;
+}
+
+.team-member .details > ul.links{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.team-member .details > ul.links > li{
+	margin-bottom:15px;
+	vertical-align:center;
+}
+
+
+li.cv:before,
+li.linked-in:before{
+	content:'';
+	width:1em;
+	height:1em;
+	display:inline-block;
+	margin-right:0.25em;
+	background-size:cover;
+}
+
+
+li.cv:before
+{
+	background-image:url(../images/icons/cv.png);
+}
+
+li.linked-in:before{
+	background-image:url(../images/icons/linked-in.png);
+}
+
+.questions-and-answers{
+	display:flex;
+	margin-bottom:60px;
+	font-size:16px;
+	line-height:23px;
+	font-weight:400;
+}
+
+.questions-and-answers .column{
+	width:50%;
+	padding:0 2em;
+}
+
+.question{
+	text-align:left;
+	margin-bottom:30px;
+	display:block;
+}
+
+
+.question> h3{
+	font-size:23px;
+	font-weight:700;
+	color:#e77272;
+	margin-bottom:15px;
+}
+
+.question > p {
+	font-size:16px;
+	line-height:23px;
+
+}
+
+.footer{
+	font-size:16px;
+	line-height:23px;
+	text-align:center;
+	margin-bottom:1em;
+}
+
+.footer p{
+	margin:0;
+}
+
+
+table.form{
+	width:100%;
+	padding:2em 4em 0em 4em;
+	line-height:48px;
+	font-size:18px;
+	border:4px solid #e0e0e8;
+	background-color:#fffff8;
+}
+
+table.form td.right{
+	text-align:right;
+}
+
+table.form input{
+	font-size:18px;
+	width:100%;
+}
+
+table.form input[type=submit]{
+	font-size:14px;
+	padding:0.5em 2em;
+	width:auto;
+	margin-top:0.5em;
+}
+
+table.form a{
+	font-size:12px;
+}

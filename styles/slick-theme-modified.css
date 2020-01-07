@@ -1,0 +1,29 @@
+  	.slick-prev,
+  	.slick-next
+  	{
+    	font-size: 0;
+    	line-height: 0;
+		opacity:0;
+  	}
+	.slick-slide{
+		transform:scale(0.8);
+		transition: transform 0.2s ease-in, opacity 0.5s ease-out;
+		opacity:0.75;
+	}
+	.slick-slide img{
+		display:block;
+	}
+  .slick-slide:hover{
+		transform:scale(1);
+	    opacity:1;
+	    transition: transform 0.2s ease-out, opacity 0.5s ease-out;	  
+  }
+  .slick-center{
+		transform:scale(0.9);
+	    opacity:0.95;
+		transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  .slick-slider{
+	 -webkit-mask-image: linear-gradient(to right,transparent 0%, black 25%, black 75%, transparent 100%);
+	  mask-image: linear-gradient(to right,transparent 0%, black 25%, black 75%, transparent 100%);
+  }
