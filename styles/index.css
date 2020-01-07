@@ -252,10 +252,6 @@ ul.features > li {
 	margin-bottom:1.25em;
 }
 
-ul.features b{
-	color:#888888;
-	font-weight:700;
-}
 
 .feature-area-a{
 	background-image:url(../images/template/gamepad-background.jpg);
@@ -263,6 +259,10 @@ ul.features b{
 	background-size:cover;
 }
 
+.features a{
+	color:#e02010;
+	text-decoration:underline;
+}
 
 .team-member{
 	display:flex;
